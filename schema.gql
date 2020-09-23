@@ -1,0 +1,26 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type AuthModel {
+  access_token: String
+  refresh_token: String
+  userID: String
+  fullName: String
+  email: String
+  mobile: String
+  secMobile: String
+  gender: String
+  dob: String
+  age: String
+  profilePic: String
+  active: Boolean
+  licenseID: String
+  licenseIDPic: String
+  status: String
+  message: String
+}
+
+type Query {
+  test: AuthModel!
+}
